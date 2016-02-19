@@ -70,6 +70,8 @@ Download and run the Windows installer provided by [Nodejs](https://nodejs.org/e
 
 openjdk-7-jre and openjdk-7-jdk or openjdk-8-jre and openjdk-8-jdk, or java 8 JRE + JDK
 
+Also download and install maven 3.
+
 ##### Unix/Linux
 
 
@@ -96,11 +98,20 @@ npm install --global quickscrape
 #### norma
 
 * build and install from source
+```
+git clone https://github.com/ContentMine/cmine.git
+git clone https://github.com/ContentMine/norma.git
+cd cmine && mvn clean install && cd ../
+cd norma && mvn clean install && cd ../
+```
 * install from package
 
 #### ami-plugin
-
 * build and install from source
+```
+git clone https://github.com/ContentMine/ami-plugin.git
+cd ami-plugin && mvn clean install && cd ../
+```
 * install from package
 
 
